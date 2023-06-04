@@ -3,7 +3,8 @@ import './App.css';
 import DirectoryComponent from './components/directory/directory.component';
 import Home from './routes/home/home.component';
 import Navigation from './routes/navigation/navigation.component';
-import SignIn from './routes/signIn/signIn.component';
+import Auth from './routes/auth/auth.component';
+import Authentication from './routes/auth/auth.component';
 
 
 
@@ -26,7 +27,7 @@ const App=()=> {
     <Route  path='/' element={<Navigation/>}>
     <Route index element={<Home/>}></Route>
     <Route path='shop' element={<Shop/>}></Route>
-    <Route path='sign-in' element={<SignIn/>}></Route>
+    <Route path='auth' element={<Authentication/>}></Route>
 
   
     </Route>
